@@ -1,0 +1,91 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   
+   --color: red;
+}
+section{
+  background-color: black;
+}
+section .container{
+    max-width: 1175px;
+}
+div .umumi{
+  padding-top: 100px;
+    display: flex;
+}
+.umumi .first h1{
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 125.5%;
+letter-spacing: 0.03em;
+color: #F8F8F8;
+
+}
+.umumi .first span{
+    color: red;
+}
+.umumi .first p{
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+text-align: justify;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.first .header{
+  display: flex;
+  align-items: center;
+}
+.first .header hr{
+  height: 0px;
+  width: 143px;
+  border: 2px solid #D8D8D8;
+  margin: 0  10px;
+}
+.first .header h6{
+ font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 155%;
+text-align: justify;
+letter-spacing: 0.03em;
+color: #F8F8F8;
+
+}
+.click{
+  background: #FF3839;
+border-radius: 5px;
+width: 181px;
+height: 48px;
+}
+.click a{
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none;
+}
+div .second{
+  display: flex;
+  background-color: blue;
+}
+.second div{
+  width: 263px;
+height: 209px;
+}
